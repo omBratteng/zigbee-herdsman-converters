@@ -297,6 +297,7 @@ const definitions: Definition[] = [
         model: '1402769',
         vendor: 'Namron',
         description: 'ZigBee LED dimmer',
+        ota: ota.zigbeeOTA,
         extend: [light({configureReporting: true}), forcePowerSource({powerSource: 'Mains (single phase)'})],
     },
     {
